@@ -1,22 +1,63 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main (){
+    char A[50], A1[50], A2[50], A3[50], A4[50];
+    int pibA1, pibA2, pibA3, pibA4;
+    double popA1, popA2, popA3, popA4;
+    float areaA1, areaA2, areaA3, areaA4;
+    char turA1, turA2, turA3, turA4;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    printf("Digite o Estado: ");
+    scanf("%s", &A);
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("Digita a cidade: ");
+    scanf(" %s", &A1);
+
+    printf("Digite a população: ");
+    scanf(" %e", &popA1);
+
+    printf("Digite a area em m²: ");
+    scanf(" %f", &areaA1);    
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %c", &turA1);    
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Digita a cidade: ");
+    scanf(" %s", &A2);
+
+    printf("Digite a população: ");
+    scanf(" %e", &popA2);
+
+    printf("Digite a area em m²: ");
+    scanf(" %f", &areaA2);    
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %c", &turA2);   
+
+    printf("Digita a cidade: ");
+    scanf(" %s", &A3);
+
+    printf("Digite a população: ");
+    scanf(" %e", &popA3);
+
+    printf("Digite a area em m²: ");
+    scanf(" %f", &areaA3);    
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %c", &turA3);    
+
+    printf("Digita a cidade: ");
+    scanf(" %s", &A4);
+
+    printf("Digite a população: ");
+    scanf(" %e", &popA4);
+
+    printf("Digite a area em m²: ");
+    scanf(" %f", &areaA4);    
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %c", &turA4);        
+    printf("Proxima carta");
 
     return 0;
 }
