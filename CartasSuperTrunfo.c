@@ -1,63 +1,33 @@
 #include <stdio.h>
 
 int main (){
-    char A[50], A1[50], A2[50], A3[50], A4[50];
-    int pibA1, pibA2, pibA3, pibA4;
-    double popA1, popA2, popA3, popA4;
-    float areaA1, areaA2, areaA3, areaA4;
-    char turA1, turA2, turA3, turA4;
+    char A[50], cidade1[50], paises [50];
+    int pib1;
+    double pop1;
+    float area1;
+    char tur1;
+    char codigo1 [3];
+
+    printf("Cadastrar carta\n");
+    printf("Digite o páis: ");
+    scanf(" %s", &paises);
 
     printf("Digite o Estado: ");
-    scanf("%s", &A);
+    scanf(" %s", &A);
     
-    printf("Digita a cidade: ");
-    scanf(" %s", &A1);
+    printf("Digita a cidade e numero da carta: ");
+    scanf(" %s %c", &cidade1, &codigo1);
 
     printf("Digite a população: ");
-    scanf(" %e", &popA1);
+    scanf(" %f", &pop1);
 
     printf("Digite a area em m²: ");
-    scanf(" %f", &areaA1);    
+    scanf(" %f", &area1);    
 
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %c", &turA1);    
+    scanf(" %c", &tur1);    
     
-    printf("Digita a cidade: ");
-    scanf(" %s", &A2);
-
-    printf("Digite a população: ");
-    scanf(" %e", &popA2);
-
-    printf("Digite a area em m²: ");
-    scanf(" %f", &areaA2);    
-
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %c", &turA2);   
-
-    printf("Digita a cidade: ");
-    scanf(" %s", &A3);
-
-    printf("Digite a população: ");
-    scanf(" %e", &popA3);
-
-    printf("Digite a area em m²: ");
-    scanf(" %f", &areaA3);    
-
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %c", &turA3);    
-
-    printf("Digita a cidade: ");
-    scanf(" %s", &A4);
-
-    printf("Digite a população: ");
-    scanf(" %e", &popA4);
-
-    printf("Digite a area em m²: ");
-    scanf(" %f", &areaA4);    
-
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %c", &turA4);        
-    printf("Proxima carta");
+    printf("Proxima cidade\n");
 
     return 0;
 }
