@@ -1,33 +1,37 @@
 #include <stdio.h>
 
 int main (){
-    char A[50], cidade1[50], paises [50];
-    int pib1;
-    double pop1;
-    float area1;
-    char tur1;
-    char codigo1 [3];
+    char Cidade[50];
+    char codigo[4];
+    float Pib;
+    int Populacao;
+    float Areakm²;
+    char Estado = 'A';
+    int Pontosturistico;
 
     printf("Cadastrar carta\n");
-    printf("Digite o páis: ");
-    scanf(" %s", &paises);
-
     printf("Digite o Estado: ");
-    scanf(" %s", &A);
+    scanf(" %c", &Estado);
+
+    printf("Digite o codigo da carta: ");
+    scanf(" %s", &codigo);
     
-    printf("Digita a cidade e numero da carta: ");
-    scanf(" %s %c", &cidade1, &codigo1);
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
 
     printf("Digite a população: ");
-    scanf(" %f", &pop1);
+    scanf(" %d", &Populacao);
 
-    printf("Digite a area em m²: ");
-    scanf(" %f", &area1);    
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
 
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %c", &tur1);    
+    scanf(" %d", &Pontosturistico);    
     
-    printf("Proxima cidade\n");
+    printf("Proxima carta\n");
 
     return 0;
 }
