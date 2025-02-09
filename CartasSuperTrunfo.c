@@ -96,9 +96,623 @@ int main (){
 
     printf("Digite o numero de pontos turisticos: ");
     scanf(" %d", &Pontosturistico);    
+
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);
     
     printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
 
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);
+    
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);
+    
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);
+    
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);
+    
+    printf("Cadastrar nova carta\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
+    
+    printf("Proxima carta cidade\n");
+    printf("Digite o Estado em letra unica, ex.P para Piaui: ");
+    scanf(" %c", &Estado1);
+
+    printf("Digite o codigo da carta, a letra do estado mais numero, ex. P1, P2: ");
+    scanf(" %s", &codigo1);
+    
+    printf("Digita a cidade: ");
+    scanf(" %s", &Cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d", &Populacao);
+
+    printf("Digite a area em km²: ");
+    scanf(" %f", &Areakm²);    
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &Pib);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);    
 
     return 0;
 }
+
