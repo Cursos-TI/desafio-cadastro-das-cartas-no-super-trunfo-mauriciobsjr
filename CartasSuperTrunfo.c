@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main (){
-    char Cidade[50];
+    char Cidade[100];
     char codigo1[4], codigo2[4], codigo3[4], codigo4[4], codigo5[4], codigo6[4], codigo7[4], codigo8[4];
     float Pib;
     int Populacao;
-    float Areakm;
+    float Areakm, densidade, pibpercapita;
     char Estado1, Estado2, Estado3, Estado4, Estado5, Estado6, Estado7, Estado8;
-    int Pontosturistico;
+    int Pontosturistico; 
 
-    printf("Cadastrar nova carta\n");
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado1);
 
@@ -28,10 +28,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado1);
 
@@ -50,10 +56,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado1);
 
@@ -72,10 +84,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado1);
 
@@ -94,10 +112,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
 
-    printf("Cadastrar nova carta\n");
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado2);
 
@@ -116,10 +140,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado2);
 
@@ -138,10 +168,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado2);
 
@@ -160,10 +196,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado2);
 
@@ -182,10 +224,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
 
-    printf("Cadastrar nova carta\n");
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado3);
 
@@ -204,10 +252,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado3);
 
@@ -226,10 +280,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado3);
 
@@ -248,10 +308,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado3);
 
@@ -270,10 +336,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
-    printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
 
-    printf("Cadastrar nova carta\n");
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado4);
 
@@ -292,10 +364,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado4);
 
@@ -314,10 +392,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado4);
 
@@ -336,10 +420,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado4);
 
@@ -358,10 +448,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);
-    
-    printf("Cadastrar nova carta\n");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado5);
 
@@ -380,10 +476,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado5);
 
@@ -402,10 +504,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado5);
 
@@ -424,10 +532,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado5);
 
@@ -446,10 +560,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);
-    
-    printf("Cadastrar nova carta\n");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado6);
 
@@ -468,10 +588,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado6);
 
@@ -490,10 +616,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado6);
 
@@ -512,10 +644,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado6);
 
@@ -534,10 +672,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);
-    
-    printf("Cadastrar nova carta\n");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado7);
 
@@ -556,10 +700,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado7);
 
@@ -578,10 +728,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado7);
 
@@ -600,10 +756,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado7);
 
@@ -622,10 +784,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);
-    
-    printf("Cadastrar nova carta\n");
+    scanf(" %d", &Pontosturistico);  
+
+    printf("***Cadastrar nova carta***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado8);
 
@@ -644,10 +812,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado8);
 
@@ -666,10 +840,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado8);
 
@@ -688,10 +868,16 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
     
-    printf("Proxima carta cidade\n");
+    printf("***Proxima carta cidade***\n");
     printf("Digite o Estado em letra unica, ex.P para Piaui: ");
     scanf(" %c", &Estado8);
 
@@ -710,8 +896,15 @@ int main (){
     printf("Digite o PIB: ");
     scanf(" %f", &Pib);
 
+    pibpercapita = (float)(Pib / Populacao);
+    printf("Pib Per capita: %.3f\n", pibpercapita);
+
+    densidade = (float)(Populacao / Areakm);
+    printf("Densidade populacional: %.3f\n", densidade);
+
     printf("Digite o numero de pontos turisticos: ");
-    scanf(" %d", &Pontosturistico);    
+    scanf(" %d", &Pontosturistico);  
 
     return 0;
+    
 }
